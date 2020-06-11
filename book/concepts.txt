@@ -1,0 +1,11 @@
+# COMMON PROGRAMMING CONCEPTS
+
+## Variables and Mutability
+
+When a variable is immutable, once a value is bound to a name, you can’t change that value.
+
+Even though compiler errors can be frustrating, they only mean your program isn’t safely doing what you want it to do yet.
+
+In addition to allowing this value to change, mut conveys intent to future readers of the code by indicating that other parts of the code will be changing this variable’s value.
+
+Constants aren’t just immutable by default—they’re always immutable.
