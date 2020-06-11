@@ -36,7 +36,7 @@ fn main() {
     let tup = (500, 6.4, 1);
     let (x, y, z) = tup;
     println!("Value of tup index 0 is: {}", tup.0);
-    println!("The value of y is: {}", y);
+    println!("The value of x y z is: {} {} {}", x, y, z);
 
     println!("___");
     println!("//compound types - arrays");
@@ -46,7 +46,4 @@ fn main() {
     
     let a: [i32; 5] = [1,2,3,4,5];
     println!("Last array item:    {}", a[4]);
-
-    println!("___");
-    println!("//functions");
 }

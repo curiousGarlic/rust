@@ -36,3 +36,5 @@ An array is a single chunk of memory allocated on the stack.
 
 ## Functions
 
+Rust doesn’t care where you define your functions, only that they’re defined somewhere.
+
