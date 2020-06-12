@@ -43,3 +43,13 @@ Functions can also be defined to have parameters, which are special variables th
 Statements are instructions that perform some action and do not return a value. 
 Expressions evaluate to a resulting value. 
 Expressions do not include ending semicolons. If you add a semicolon to the end of an expression, you turn it into a statement, which will then not return a value.
+
+
+---
+
+Convert temperatures between Fahrenheit and Celsius.
+Generate the nth Fibonacci number.
+Print the lyrics to the Christmas carol “The Twelve Days of Christmas,” taking advantage of the repetition in the song.
+
+---
+
