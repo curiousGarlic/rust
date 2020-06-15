@@ -59,3 +59,7 @@ A scope is the range within a program for which an item is valid.
 
 String literals -> a string value is hardcoded into a program.
 
+The ownership of a variable follows the same pattern every time: assigning a value to another variable moves it. When a variable that includes data on the heap goes out of scope, the value will be cleaned up by drop unless the data has been moved to be owned by another variable.
+
+Ampersands (&) are references, and they allow you to refer to some value without taking ownership of it. 
+
